@@ -1,0 +1,167 @@
+body {
+    padding: 20px;
+    padding-bottom: 500px;
+}
+
+p {
+    color: green;
+} 
+/* classes e ids */
+
+.meu-paragrafo {
+    background-color: black;
+    color: red;
+   font-family: 'Times New Roman', Times, serif;
+}
+#titulo-principal {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ /* todos elementos e listras */ 
+ *{
+    font-size: 30px;
+   font-family: Arial;
+
+ } 
+ /* serve para colocar regras e padronizar */ 
+ p, h1 {
+    border-bottom: 1px solid red;
+ }
+ .nome-da-cor{
+    font-size: 30px;
+    color: pink;
+ }
+ .exa {
+    font-size: 30px;
+    color: #324599;
+    background-color: #ff3300;
+ }
+ .rgb {
+    font-size: 30px;
+    color: rgb(255, 234, 0);
+ }
+ /* fontes */ 
+.serifada{  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.sem-serifa{
+   font-family:Helvetica   ;
+}
+.espacada{
+   font-family:'Courier New';
+}
+/* tamanho da fonte */ 
+.tamanho-fonte-grande {
+   font-size: 64px;
+}
+.tamanho-fonte-peq { 
+   font-size: 12px;
+}
+.peso-da-fonte {
+   font-weight: 900px;
+}
+/* box model */
+.box-model {
+   width: 200px;
+   height: 100px;
+   border: 3px solid blue;
+   padding: 20px;
+   margin: 20px;
+}
+/* prop de text */ 
+.alinhamento {
+   text-align: center;
+   color: black;
+   font-size: 50px;
+}
+.trans-maiusculas {
+   text-transform: uppercase;
+}
+.trans-minusculas {
+   text-transform: lowercase;
+}
+/* espacamento linhas e letras*/ 
+.espacamento-texto {
+   width: 150px;
+   line-height: 40px;
+   letter-spacing: 8px;
+   }
+   /* links */ 
+   .decoration{
+      text-decoration: none;
+   }
+   .estilo-hover:hover {
+      background-color: #1292ae;
+   }
+.visitad {
+   color: orange;
+}
+/* button*/ 
+.btn {
+   background-color: #34ae43;
+   border: 3px solid #234966;
+   border-radius: 5px;
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   width: 120px;
+   padding: 12px 7px;
+   text-align: center;
+   margin: 20px;
+   transition: 0.5s;
+}
+.btn:hover {
+   background-color: #234966;
+}
+/* lista */ 
+.sem-estilo {
+   list-style: none;
+}
+/* display */ 
+.inline {
+   width: 50px;
+   height: 50px;
+   background-color: teal;
+   margin: 5px;
+   display: inline-block;
+}
+.bloco {
+   display: block;
+}
+/* position fixo */ 
+.elemento-fixo {
+   position: fixed;
+   left:  0;
+   top: 0;
+   width: 100%;
+   padding: 15px;
+   text-align: center;
+   background-color: #1292ae;
+   border: 2px solid #942299;
+   color: #fff;
+}
+/* psuedo seletor */ 
+.primeiro-elem p:first-child {
+   color: #942299;
+   font-weight: bold;
+}
+.primeira-letra::first-letter{
+   font-size: 40px;
+   color: blue;
+   background-color: red;
+   padding: 4px;
+}  
+/* especididade*/ 
+h2 {
+   color: red;
+}
+.titulo {
+   color: green;
+}
+#preferido {
+   color: blue;
+}

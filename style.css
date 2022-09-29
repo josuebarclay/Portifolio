@@ -370,3 +370,69 @@ header {
     bottom: 2rem;
     opacity: 1;
 }
+
+.sessao-contato{
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-wrapper {
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, .8);
+}
+
+.contato-left {
+    width: 35%;
+    background-image:  
+        linear-gradient(rgba(15,15,15,.6),rgba(25,25,25,.9)),
+        url(/teste1-main/img/imagem\ lateral.jpg);
+    background-size: cover;
+}
+
+.contato-right {
+    width: 65%;
+    background-color: #eee;
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+.sessao-contato h1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #6f0000;
+}
+
+.sessao-contato form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group {
+    position: relative;
+}
+.field {
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    border-bottom: 2px dashed #6f0000;
+    height: 3rem;
+    outline: none;
+    margin: 2rem;
+}
+
+.field-label {
+    position: absolute;
+    left: 0;
+   font-family: var(--font-primary);
+   text-transform: uppercase;
+}
